@@ -1,0 +1,33 @@
+Source files for Chapter 03:
+
+#---sonar-runner.properties
+Sonar java runner configuration file.
+The file as it wass modified to serve 
+the book example.Is required by the java 
+runner tool in order to execute sonar.
+
+#---sonar-project.properties
+sample Java runner configuration file for the
+Apache commons-lang project. Place the file
+inside the root project directory before executing
+the java-runner as exaplined in the book.
+
+#---build.xml
+Ant configuration file defining a Sonar task.
+Copy the task section to an ant build file to 
+exeecute sonar analysis.
+
+#--The directory commons-lang-3.1.1-SNAPSHOT contains
+java source code files as they were modified in the
+elminate violations example in chapter 3 of the book.
+
+file list:
+	Builder.java
+	DurationFormatUtils.java
+	ExceptionContext.java
+	FormatCache.java
+
+
+7867OS Sonar Code Quality Testing - Packt Publishing
+Charalampos Arapidis - arapidhs@gmail.com
+2011-11-18

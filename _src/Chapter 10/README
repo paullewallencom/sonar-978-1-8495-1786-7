@@ -1,0 +1,15 @@
+Source files for Chapter 10:
+
+#---Calculator.java
+Simple classes to use for testing
+in the Quickstart jUnit section of the chapter
+shwocasing annotations and practices.
+
+file list:
+    Calculator.java
+	CalculatorTest.java
+
+
+7867OS Sonar Code Quality Testing - Packt Publishing
+Charalampos Arapidis - arapidhs@gmail.com
+2011-12-07

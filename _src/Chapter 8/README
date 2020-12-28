@@ -1,0 +1,26 @@
+Code files for Book 
+7867_Sonar Chapter 08 1st draft
+
+------------------------------------
+
+Parts of the following 2(two) code files
+are used in the "The Extract Method Refactoring Pattern"
+example:
+
+1.UserRecommenderBefore.java
+2.UserRecommenderAfter.java
+
+The second file showcases the changes and how the code
+was affected after applying the Extract Method refactoring pattern.
+
+The file:
+
+3.UserCorrelation.java
+
+is shown in the example "Refactoring With Inheritance".
+
+------------------------------------
+
+Charalampos Arapidis
+arapidhs@gmail.com
+

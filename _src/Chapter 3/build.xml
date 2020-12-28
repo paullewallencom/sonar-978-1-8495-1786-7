@@ -1,0 +1,33 @@
+<project name="Your Project" >
+...
+    <!-- Define the Sonar task -->
+    <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+        <classpath path="path/to/sonar/ant/task/lib" />
+    </taskdef>
+
+    <!-- Sonar MySQL connection -->
+    <property name="sonar.jdbc.url" value="jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;characterEncoding=utf8" />
+    <property name="sonar.jdbc.driverClassName" value="com.mysql.jdbc.Driver" />
+    <property name="sonar.jdbc.username" value="sonar" />
+    <property name="sonar.jdbc.password" value="sonar" />
+
+    <!-- Sonar server URL -->
+    <property name="sonar.host.url" value="http://localhost:9000" />
+
+    <!-- Sonar target -->
+    <target name="sonar">
+
+        <!--  the sources path is required -->
+        <property name="sonar.sources" value="list of source directories separated by a comma" />
+
+        <!-- optional paths for compiled classes, tests, and libraries -->
+        <property name="sonar.projectName" value="this value overrides the name defined in Ant root node" />
+        <property name="sonar.binaries" value="compiled classses directory" />
+        <property name="sonar.tests" value="unit tests" />
+        <property name="sonar.libraries" value="project library dependencies separated by comma" />
+    ...
+        <sonar:sonar key="org.example:example" version="0.1-SNAPSHOT" xmlns:sonar="antlib:org.sonar.ant"/>
+        
+    </target>
+...
+</project>
